@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+:root
+{
+    --black: #232323;
+    --white: #f1f1f1;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: var(--black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-timer-regress
+{
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    border-radius: 3px;
+    font-family: 'Rowdies', cursive;
+}
+.content-timer-regress div
+{
+    padding: 5px;
+}
+.content-timer-regress div:nth-child(2)
+{
+    margin-top: -2px;
+    padding: 5px 0px;
+}
