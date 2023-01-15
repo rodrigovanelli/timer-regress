@@ -8,7 +8,7 @@ const timerRegress = () => {
     seg.innerHTML = seconds;
     seconds--;
     if(seconds < 0) {
-        seconds = 10;
+        seconds = 59;
         minutes--;
         if(minutes < 0) {
             clearInterval(startTimer)
